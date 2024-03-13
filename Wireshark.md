@@ -31,7 +31,10 @@
    ![image](https://github.com/firehooman/Laprak-Jaringan-Komputer/assets/126407683/92d29ffb-284c-4bf6-aa45-c7b9de9974d4)
 
    Time 1 = Waktu awal
+
    Time 2 = Waktu awal yang diulai setelah 0
+
+
    Delay = Time 2 – Time 1
    
    Jadi didapatkan nilai dari data delay dan rata – rata delay sebagai berikut :
@@ -47,7 +50,9 @@
 
    Analisis yang didapatkan adalah :
    Delay 1 = Nilai Delay – Nilai Delay Setelahnya 
+
    Delay 2 = Semua Nilai Delay, Kecuali Delay Pertama
+
    Jitter = Delay – Delay 1
 
    Jadi, Didapatkan hasil dari nilai jitter dan rata – rata jitter juga didapatkan sebagai berikut:
