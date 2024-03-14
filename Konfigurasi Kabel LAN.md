@@ -26,8 +26,9 @@ A. Pembuatan Kabel Straight dan Cross
 
   b. Langkah-langkah
 
-     1. Ambil kabel UTP dan potong kurang lebih sepanjang 1 meter, sebanyak 2 kabel karna kita akan membuat 2 jenis yaitu Straight dan Cross
-     2. Kupas atau kuliti bagian kabel menggunakan Tang Crimping, usahakan untuk mengupas kurang lebih 3-5cm dari ujung kabel. Pastikan kabel bagian dalam yang bewarna tidak ada yang terputus
+     1. Yang pertama, ambil kabel UTP dan potong kurang lebih sepanjang 1 meter, sebanyak 2 kabel karna kita akan membuat 2 jenis yaitu Straight dan Cross
+     
+     2. Kuliti bagian kabel menggunakan Tang Crimping, usahakan untuk mengupas kurang lebih 3-5cm dari ujung kabel. Pastikan kabel bagian dalam yang bewarna tidak ada yang terputus
 
   ![image](https://github.com/firehooman/Laprak-Jaringan-Komputer/assets/126407683/ee4ccfef-8085-448e-8c6b-4fb2ad92ce3b)
 
@@ -51,7 +52,7 @@ A. Pembuatan Kabel Straight dan Cross
 
      4. Kabel Cross
      
-        1.) Untuk langkah-langkahnya sama persis seperti membuat kabel straight di atas, ikuti langkah 2 dan 3.Hanya saja susunan warna kabel nya yang berbeda
+        1.) Langkah-langkahnya membuat kabel cross sama persis seperti membuat kabel straight di atas, ikuti langkah 2 dan 3. Namun susunan warna kabelnya berbeda
 
   ![image](https://github.com/firehooman/Laprak-Jaringan-Komputer/assets/126407683/34e33763-8b66-4805-a975-9c64bc0c6a5c)
 
@@ -60,13 +61,41 @@ A. Pembuatan Kabel Straight dan Cross
 
      5. Pengetesan dengan Tester
      
-        1.) Untuk menguji apakah kabel kita berhasil atau tidak, kita menggunakan kabel tester, masukkan setiap ujung kabel ke dalam slot yang ada di kabel tester
+        1.) Kita menggunakan kabel tester untuk menguji 2 kabel tadi, masukkan setiap ujung kabel ke dalam slot yang ada di kabel tester
         
-        2.) Lalu hidupkan alatnya, jika menguji kabel Straight perlu diperhatikan urutan nomor warna yang tampil di alat kabel tester nya apakah nomor nya sudah sesuai urutan seperti di bawah ini
+        2.) Hidupkan alatnya, jika menguji kabel Straight perlu diperhatikan urutan nomor warna yang tampil di alat kabel tester nya apakah nomor nya sudah sesuai urutan seperti di bawah ini
 
    ![image](https://github.com/firehooman/Laprak-Jaringan-Komputer/assets/126407683/0427c961-e058-4feb-985c-831b515ee768)
 
 
-        3.) Sama halnya jika kita menguji kabel cross kita juga harus memastikan nomor yang tertampil pada alat apakah sudah sesuai dengan urutan di gambar bawah ini
+        3.) Sama halnya jika kita menguji kabel cross kita juga harus memastikan nomor yang tertampil pada alat apakah sudah sesuai dengan urutan di gambar atas tadi
 
 
+B. Ping dan Konfigurasi Device
+
+   Dalam melakukan percobaan ini karna kita menggunakan kabel LAN, wifi pada laptop kita harus di nonaktifkan terlebih dahulu
+
+   1. Ping
+
+      Dalam melakukan percobaan PING ini kita menggunakan kabel LAN yang terhubung dari laptop ke router melalui HUB. Command yang dilakukan pada WindowsPowershall atau command prompt adalah
+
+    ping @ipAddress
+
+      Lalu akan muncul seperti gamabar di bawah ini:
+
+  ![image](https://github.com/firehooman/Laprak-Jaringan-Komputer/assets/126407683/b3adf7bc-24d2-4465-b763-30de495e9cfe)
+
+      Apabila saat pengecekan yang muncul adalah "unreachable" maka terdapat masalah pada Jaringan. Apabila yang muncul "Request time out" maka kemungkinan ada masalah di kabel LAN nya
+
+  2. Konfigurasi Device
+
+     Untuk melakukan konfigurasi kita lakukan dengan 2 Laptop yang saling terhubung oleh kabel LAN. Lalu pada ke 2 Laptop kita buka bagian WindowsPoershell atau Command prompt dan cek ip masing masing
+
+     ![image](https://github.com/firehooman/Laprak-Jaringan-Komputer/assets/126407683/579b06e2-a683-4603-9bce-c6b6a1dff7b0)
+
+     Jika sudah mendapat Ip masing masing kita bisa mencoba untuk masuk ke user dari laptop lain dengan command ssh usr@IpAdd usr diisi dengan username device lain dan IpAdd diisi dengan ip address dari device yg ingin kita konfigurasi
+
+     ![Screenshot 2024-01-29 144817](https://github.com/firehooman/Laprak-Jaringan-Komputer/assets/126407683/a4af4161-b367-41d1-8591-247bbb76c86c)
+
+     Jika ingin keluar, tinggal brerikan commmand exit
+      
