@@ -6,7 +6,7 @@ A. Pembuatan Kabel Straight dan Cross
 
      1. Kabel UTP
 
-        ![WhatsApp Image 2024-03-14 at 09 05 40](https://github.com/firehooman/Laprak-Jaringan-Komputer/assets/126407683/e60f499a-3a9a-4749-beb3-2a50f6996278)
+        ![WhatsApp Image 2024-03-14 at 09 05 40](/firehooman/Laprak-Jaringan-Komputer/assets/126407683/e60f499a-3a9a-4749-beb3-2a50f6996278)
 
     
      2. Tang Crimping
