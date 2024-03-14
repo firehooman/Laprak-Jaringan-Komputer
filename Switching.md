@@ -8,7 +8,7 @@ Show ip vlan pada Switch Perintah ini tidak secara eksplisit ada dalam perangkat
 
 Perintah show running-config menampilkan konfigurasi aktif (yang sedang berjalan) pada switch. Ini mencakup semua pengaturan dan konfigurasi yang telah diterapkan, termasuk konfigurasi VLAN, pengaturan port, konfigurasi trunk, dan lain-lain. Pada ROUTER_1: Perintah yang sama pada router akan menampilkan konfigurasi aktif dari router tersebut, termasuk antarmuka jaringan, rute statis atau dinamis, pengaturan protokol routing, konfigurasi NAT, DHCP, ACLs
 
-![image](https://github.com/firehooman/Laprak-Jaringan-Komputer/assets/126407683/c21b9dd3-a3a4-48f9-b457-96779d5dac33)
+![image](https://github.com/firehooman/Laprak-Jaringan-Komputer/assets/126407683/72929a7c-a14a-4736-8c4a-50ffd5e7c328)
 
 Menampilkan detail tentang pool DHCP yang telah dikonfigurasi, termasuk range alamat IP yang tersedia untuk disewakan, mask subnet, default gateway, DNS server, lease time, dan lainnya. Ini membantu dalam memahami dan memverifikasi konfigurasi DHCP di jaringan.
 
